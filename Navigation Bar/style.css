@@ -1,0 +1,35 @@
+.maindiv {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  height: 100vh;
+  transition: 0.5s;
+  width: 0;
+  background-position: center;
+  background-image: url(images/image1.png);
+  background-repeat: no-repeat;
+}
+button {
+  margin: 10px !important;
+}
+ul {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  margin: 40px;
+}
+li a {
+  color: rgb(21, 8, 8);
+  font-size: 40px;
+  text-decoration: none;
+  display: none;
+  font-weight: bold;
+}
+body {
+  /*background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);*/
+  background-image: url(images/image3.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
